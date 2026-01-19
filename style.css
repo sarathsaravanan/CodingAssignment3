@@ -1,0 +1,99 @@
+body {
+    background-color: #FFE6EE;
+    color: #4A1C2A;
+    font-family: Impact, Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    border-bottom: 2px solid #4A1C2A;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 0;
+}
+
+.source {
+    font-size: 0.9em;
+    font-family: sans-serif;
+}
+
+a {
+    color: #D81B60;
+    text-decoration: none;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+figure {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    height: 250px;
+    border: 5px solid #fff;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+}
+
+figcaption {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+h3 {
+    background-color: #4A1C2A;
+    color: #FFE6EE;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+ul, ol {
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+}
+
+input[type="text"] {
+    padding: 5px;
+    border: 1px solid #4A1C2A;
+    border-radius: 3px;
+    margin: 5px 0;
+}
+
+fieldset {
+    border: 2px solid #4A1C2A;
+    border-radius: 5px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+footer {
+    text-align: right;
+    font-size: 0.8em;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #4A1C2A;
+}
